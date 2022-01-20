@@ -1,5 +1,5 @@
 var f = function (a) { 
-    debugger
+   
     if (typeof a === 'number'&& a >= 1 && a <= 7) {
         switch (a) {
             case 1:
