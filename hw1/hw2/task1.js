@@ -6,6 +6,6 @@ var kub = function (a) {
     }  
 }
 
-var result = kub(5)
+var result = kub(2);
 
-console.log(result)
+console.log(result);
