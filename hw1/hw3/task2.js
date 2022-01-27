@@ -2,12 +2,10 @@ var filter = function(arr, callback) {
     if (Array.isArray(arr) && typeof callback === 'function') {
     var i, length = arr.length, results = [];
     for (i = 0; i < length; i++) {
-      if (callback(arr[i], i, arr)&& (arr[i]) >2) {
-        if ((arr[i]) >2) { 
-        results.push(arr[i]);
+      if (callback(arr[i], i, arr)) {
+                 results.push(arr[i]);
          }
        }
-      }
        return results;
       }
         else
