@@ -4,12 +4,10 @@ var forEach = function(arr, callback) {
        for (i = 0; i < length; i = i + 1) {
         callback(arr[i], i, arr);
        }
-     }
-          
+     }         
         else
        {
          throw new Error('The type parametr is not correct')
-
      }
     } ;
     const arr = [1,2,3];
