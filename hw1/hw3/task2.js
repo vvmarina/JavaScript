@@ -14,6 +14,8 @@ var filter = function(arr, callback) {
         }
     };
 
-const arr1 = [1,2,3];
-filter(arr1, function(item, i, arr1) {
-      console.log('Number: ' + item + ', index: ' + i)});
+const arr1 = [1,2,3,10,17];
+var show = filter(arr1, function(item, i, arr1) {
+           return item >2 });
+console.log(show);
+
