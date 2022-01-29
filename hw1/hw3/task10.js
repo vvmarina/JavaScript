@@ -14,7 +14,7 @@ var reverseNew = function(arr, callback) {
       }
   };
 
-const arr1 = [1,2,3,10,17];
+const arr1 = ['k','l', 1, 5];
 var show = reverseNew(arr1, function(item, i, arr1) {
 return item });
 console.log(show);
